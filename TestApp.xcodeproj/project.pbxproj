@@ -11,6 +11,9 @@
 		81B2AD312BE2FD41000BDB3E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2AD302BE2FD41000BDB3E /* ContentView.swift */; };
 		81B2AD332BE2FD43000BDB3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B2AD322BE2FD43000BDB3E /* Assets.xcassets */; };
 		81B2AD372BE2FD43000BDB3E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81B2AD362BE2FD43000BDB3E /* Preview Assets.xcassets */; };
+		81B2AD432BE2FD58000BDB3E /* Polyline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B2AD3E2BE2FD58000BDB3E /* Polyline.swift */; };
+		81B2AD442BE2FD58000BDB3E /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 81B2AD402BE2FD58000BDB3E /* LICENSE.txt */; };
+		81B2AD452BE2FD59000BDB3E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 81B2AD412BE2FD58000BDB3E /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +23,10 @@
 		81B2AD322BE2FD43000BDB3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		81B2AD342BE2FD43000BDB3E /* TestApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TestApp.entitlements; sourceTree = "<group>"; };
 		81B2AD362BE2FD43000BDB3E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		81B2AD3D2BE2FD58000BDB3E /* Polyline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Polyline.h; sourceTree = "<group>"; };
+		81B2AD3E2BE2FD58000BDB3E /* Polyline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Polyline.swift; sourceTree = "<group>"; };
+		81B2AD402BE2FD58000BDB3E /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		81B2AD412BE2FD58000BDB3E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +61,7 @@
 			children = (
 				81B2AD2E2BE2FD41000BDB3E /* TestAppApp.swift */,
 				81B2AD302BE2FD41000BDB3E /* ContentView.swift */,
+				81B2AD422BE2FD58000BDB3E /* Polyline */,
 				81B2AD322BE2FD43000BDB3E /* Assets.xcassets */,
 				81B2AD342BE2FD43000BDB3E /* TestApp.entitlements */,
 				81B2AD352BE2FD43000BDB3E /* Preview Content */,
@@ -67,6 +75,25 @@
 				81B2AD362BE2FD43000BDB3E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		81B2AD3F2BE2FD58000BDB3E /* Polyline */ = {
+			isa = PBXGroup;
+			children = (
+				81B2AD3D2BE2FD58000BDB3E /* Polyline.h */,
+				81B2AD3E2BE2FD58000BDB3E /* Polyline.swift */,
+			);
+			path = Polyline;
+			sourceTree = "<group>";
+		};
+		81B2AD422BE2FD58000BDB3E /* Polyline */ = {
+			isa = PBXGroup;
+			children = (
+				81B2AD3F2BE2FD58000BDB3E /* Polyline */,
+				81B2AD402BE2FD58000BDB3E /* LICENSE.txt */,
+				81B2AD412BE2FD58000BDB3E /* README.md */,
+			);
+			path = Polyline;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,7 +154,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B2AD442BE2FD58000BDB3E /* LICENSE.txt in Resources */,
 				81B2AD372BE2FD43000BDB3E /* Preview Assets.xcassets in Resources */,
+				81B2AD452BE2FD59000BDB3E /* README.md in Resources */,
 				81B2AD332BE2FD43000BDB3E /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +168,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81B2AD432BE2FD58000BDB3E /* Polyline.swift in Sources */,
 				81B2AD312BE2FD41000BDB3E /* ContentView.swift in Sources */,
 				81B2AD2F2BE2FD41000BDB3E /* TestAppApp.swift in Sources */,
 			);
